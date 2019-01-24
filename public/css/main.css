@@ -232,7 +232,7 @@ form {
   color: white;
 }
 
-.user-message{
+.user-message {
   margin: auto;
   width: 90%;
   border: 1px solid #4771fa;
@@ -248,7 +248,6 @@ form {
   color: red;
 }
 
-
 @media (min-width: 768px) {
   .main-header__nav {
     display: flex;
@@ -257,7 +256,8 @@ form {
   #side-menu-toggle {
     display: none;
   }
-  .user-message{
+
+  .user-message {
     width: 30rem;
   }
 }
