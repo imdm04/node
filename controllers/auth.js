@@ -267,4 +267,8 @@ exports.postNewPassword = (req, res, next) => {
     .catch(err => {
       console.log(err);
     });
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> 102c2a9212ed1ba5fb804af8d37139f5c7b0e41d
