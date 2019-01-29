@@ -13,7 +13,7 @@ const errorController = require('./controllers/error');
 const User = require('./models/user');
 
 const MONGODB_URI =
-    'mongodb+srv://nodeuser:nodeUser@cluster0-f5zqi.mongodb.net/shop';
+    'link';
 
 const app = express();
 const store = new MongoDBStore({
@@ -27,7 +27,7 @@ const fileStorage = multer.diskStorage({
         cb(null, 'images');
     },
     filename: (req, file, cb) => {
-        cb(null, new Date().toString() + '-' + file.originalname);
+        cb(null, new Date().toISOString() + '-' + file.originalname);
     }
 });
 
